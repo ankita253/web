@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url(image/student\ registration.jpg);
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+        .a {
+            margin: auto;
+            width: 650px;
+            height: 550px;
+            text-align: center;
+            background: linear-gradient(45deg, black, transparent);
+            margin-top: 150px;
+            color: #71c214;
+            z-index: 1;
+        }
+        .a h1{
+            background: linear-gradient(pink,rgb(31, 31, 105));
+            color: aliceblue;
+            font-size: 26px;
+            font-weight: 300px;
+        }
+        .a input {
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        .a button {
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 0 10px;
+            background: linear-gradient(45deg, #03a9f4, #ff1212);
+            font-size: 14px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <center>
+            <br><br>
+            <h1>Student Registration Form</h1>
+            <br>
+            <form action="">
+                 First Name:
+                <input type="text" name="m" placeholder="enter  first name" required>
+                <br><br>
+
+                Last  Name:
+                <input type="text" name="u" placeholder="enetr last name" required>
+                <br><br>
+
+                E-mail:
+                <input type="email" name="e" required>
+                <br><br>
+
+                Password:
+                <input type="password" name="pa" required>
+                <br><br>
+
+                D.O.B:
+                <input type="date" name="dob" required>
+                <br><br>
+
+                Phone no:
+                <input type="number" name="phone" required>
+                <br><br>
+
+                Gender:
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+                <input type="radio" name="gender" value="other">other
+                <br><br>
+
+                College:
+                <select name="col" id="">
+                    <option value="">select college</option>
+                    <option value="">itm</option>
+                    <option value="">mpct</option>
+                    <option value="">mits</option>
+                    <option value="">rjit</option>
+                    <option value="">prestige</option>
+                </select>
+                <br><br>
+
+                Education:
+                <input type="checkbox" name="edu" value="10th">10th
+                <input type="checkbox" name="edu" value="12th">12th
+                <input type="checkbox" name="edu" value="bca">BCA
+                <input type="checkbox" name="edu" value="mba">MBA
+                <input type="checkbox" name="edu" value="Btech">Btech
+                <input type="checkbox" name="edu" value="Mtech">Mtech
+                <input type="checkbox" name="edu" value="bsc">BSC
+                <br><br>
+
+                Address:
+                <textarea name="" id="" cols="10" rows=""></textarea>
+                <br><br>
+
+                Image:
+                <input type="file" name="">
+                <br><br>
+                <button type="submit">Sumbit</button>
+            </form>
+
+
+        </center>
+
+    </div>
+</body>
+
+</html>
